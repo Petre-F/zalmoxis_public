@@ -1,0 +1,28 @@
+name: Zalmoxis_Public
+on:
+  push:
+    branches: [ "main" ]
+    paths: ["PCAP/**"]
+  pull_request:
+    branches: [ "main" ]
+    paths: ["PCAP/**"]
+  workflow_dispatch:
+
+
+jobs:
+  Trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Trigger Zalmoxis
+        env:
+          ZALMOXIS_REPO_LINK: ${{ secrets.REPO_LINK }}
+          ZALMOXIS: ${{ secrets.ZALMOXIS }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          curl -X POST \
+          -H "Accept: application/json" \
+          -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
+          "${{ secrets.ZALMOXIS }}" \
+          -d '{"ref":"main","inputs":{"repository":"${{ secrets.REPO_LINK }}"}}'
