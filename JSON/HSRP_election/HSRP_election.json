@@ -1,1 +1,111 @@
-{"PCAP-0": {"Devices": {"c2:01:34:77:00:00": {"IPv4": {"Address": ["192.168.0.10"], "Sockets": {"1985": {"224.0.0.2": {"1985": {"Group": 1, "Priority": 200, "To_VirtualIP": "192.168.0.1", "NB_of_Active_Groups": [0, 1], "NB_of_Passive_Groups": [3, 2]}}}}}}, "01:00:5e:00:00:02": {"IPv4": {"Address": ["224.0.0.2"]}}, "c2:03:34:8d:00:00": {"IPv4": {"Address": ["192.168.0.30"], "Sockets": {"1985": {"224.0.0.2": {"1985": {"Group": 1, "Priority": 100, "To_VirtualIP": "192.168.0.1", "NB_of_Active_Groups": [0, 0, 0], "NB_of_Passive_Groups": [3, 2, 2]}}}}}}, "c2:02:34:77:00:00": {"IPv4": {"Address": ["192.168.0.20"], "Sockets": {"1985": {"224.0.0.2": {"1985": {"Group": 1, "Priority": 100, "To_VirtualIP": "192.168.0.1", "NB_of_Active_Groups": [0, 0], "NB_of_Passive_Groups": [2, 2]}}}}}}, "00:00:0c:07:ac:01": {"IPv4": {"Address": ["192.168.0.10"], "Sockets": {"1985": {"224.0.0.2": {"1985": {"Group": 1, "Priority": 200, "To_VirtualIP": "192.168.0.1"}}}}}}}}}
+{
+    "PCAP-0": {
+        "Devices": {
+            "c2:01:34:77:00:00": {
+                "IPv4": {
+                    "Address": [
+                        "192.168.0.10"
+                    ],
+                    "Sockets": {
+                        "1985": {
+                            "224.0.0.2": {
+                                "1985": {
+                                    "Group": 1,
+                                    "Priority": 200,
+                                    "To_VirtualIP": "192.168.0.1",
+                                    "NB_of_Active_Groups": [
+                                        0,
+                                        1
+                                    ],
+                                    "NB_of_Passive_Groups": [
+                                        3,
+                                        2
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "01:00:5e:00:00:02": {
+                "IPv4": {
+                    "Address": [
+                        "224.0.0.2"
+                    ]
+                }
+            },
+            "c2:03:34:8d:00:00": {
+                "IPv4": {
+                    "Address": [
+                        "192.168.0.30"
+                    ],
+                    "Sockets": {
+                        "1985": {
+                            "224.0.0.2": {
+                                "1985": {
+                                    "Group": 1,
+                                    "Priority": 100,
+                                    "To_VirtualIP": "192.168.0.1",
+                                    "NB_of_Active_Groups": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "NB_of_Passive_Groups": [
+                                        3,
+                                        2,
+                                        2
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "c2:02:34:77:00:00": {
+                "IPv4": {
+                    "Address": [
+                        "192.168.0.20"
+                    ],
+                    "Sockets": {
+                        "1985": {
+                            "224.0.0.2": {
+                                "1985": {
+                                    "Group": 1,
+                                    "Priority": 100,
+                                    "To_VirtualIP": "192.168.0.1",
+                                    "NB_of_Active_Groups": [
+                                        0,
+                                        0
+                                    ],
+                                    "NB_of_Passive_Groups": [
+                                        2,
+                                        2
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "00:00:0c:07:ac:01": {
+                "IPv4": {
+                    "Address": [
+                        "192.168.0.10"
+                    ],
+                    "Sockets": {
+                        "1985": {
+                            "224.0.0.2": {
+                                "1985": {
+                                    "Group": 1,
+                                    "Priority": 200,
+                                    "To_VirtualIP": "192.168.0.1"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
