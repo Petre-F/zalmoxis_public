@@ -254,26 +254,12 @@
                             ]
                         }
                     },
-                    "01:80:c2:00:00:00": {
-                        "STP": {
-                            "BPDU Type": 2,
-                            "BPDU Flags": [
-                                "00111100",
-                                "00111101"
-                            ],
-                            "Root Bridge Priority": 2048,
-                            "Root Bridge System ID Extension": 1,
-                            "Root Bridge System ID": "00:0a:8a:a1:5a:80",
-                            "Path Cost": 0,
-                            "Bridge Priority": 2048,
-                            "Bridge System ID Extension": 1,
-                            "Bridge System ID": "00:0a:8a:a1:5a:80"
-                        }
-                    },
-                    "00:0a:8a:a1:5a:9a": {
-                        "Raw": "\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-                    },
                     "01:00:0c:cc:cc:cc": {
+                        "UDLD": {
+                            "Device Name": "CCNP-LAB-S2.webernetz.net",
+                            "Device ID": "FOC0630Z3KZ",
+                            "Port ID": "Gi0/2"
+                        },
                         "CDP": {
                             "Device ID": "CCNP-LAB-S2.webernetz.net",
                             "Software Version": "Cisco Internetwork Operating System Software \nIOS (tm) C2950 Software (C2950-I6K2L2Q4-M), Version 12.1(22)EA14, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2010 by cisco Systems, Inc.\nCompiled Tue 26-Oct-10 10:35 by nburra",
@@ -296,6 +282,25 @@
                             "Untrusted Port CoS": 0
                         },
                         "Raw": "\u0000\u0000\u0000\u0001\u0006\u0001\u0000\u0002"
+                    },
+                    "01:80:c2:00:00:00": {
+                        "STP": {
+                            "BPDU Type": 2,
+                            "BPDU Flags": [
+                                "00111100",
+                                "00111101"
+                            ],
+                            "Root Bridge Priority": 2048,
+                            "Root Bridge System ID Extension": 1,
+                            "Root Bridge System ID": "00:0a:8a:a1:5a:80",
+                            "Path Cost": 0,
+                            "Bridge Priority": 2048,
+                            "Bridge System ID Extension": 1,
+                            "Bridge System ID": "00:0a:8a:a1:5a:80"
+                        }
+                    },
+                    "00:0a:8a:a1:5a:9a": {
+                        "Raw": "\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
                     },
                     "01:80:c2:00:00:02": {
                         "LACP": {
@@ -388,32 +393,11 @@
                         }
                     },
                     "01:00:0c:cc:cc:cc": {
-                        "Raw": [
-                            "!\u00014g\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u009f",
-                            "\u0000\u0000\u0000\u0001\u0006\u0001\u0000\u0002",
-                            "!\u00014f\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a0",
-                            "!\u00014e\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a1",
-                            "!\u00014d\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a2",
-                            "!\u00014c\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a3",
-                            "!\u00014b\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a4",
-                            "!\u00014a\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a5",
-                            "!\u00014`\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a6",
-                            "!\u00014_\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a7",
-                            "!\u00014^\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a8",
-                            "!\u00014]\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00a9",
-                            "!\u00014\\\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00aa",
-                            "!\u00014[\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00ab",
-                            "!\u00014Z\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00ac",
-                            "!\u00014Y\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00ad",
-                            "!\u00014X\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00ae",
-                            "!\u00014W\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00af",
-                            "!\u00014V\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00b0",
-                            "!\u00014U\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00b1",
-                            "!\u00014T\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00b2",
-                            "!\u00014S\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00b3",
-                            "!\u00014R\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00b4",
-                            "!\u00014Q\u0000\u0001\u0000\u000fFOC1213Z3S4\u0000\u0002\u0000\tGi0/1\u0000\u0003\u0000\u001c\u0000\u0000\u0000\u0001\u0000\u000bFOC0630Z3KZ\u0000\u0005Gi0/2\u0000\u0004\u0000\u0005\u000f\u0000\u0005\u0000\u0005\u0005\u0000\u0006\u0000\u001dCCNP-LAB-S1.webernetz.net\u0000\u0007\u0000\b\u0000\u0000\u009d\u00b5"
-                        ],
+                        "UDLD": {
+                            "Device Name": "CCNP-LAB-S1.webernetz.net",
+                            "Device ID": "FOC1213Z3S4",
+                            "Port ID": "Gi0/1"
+                        },
                         "CDP": {
                             "Device ID": "CCNP-LAB-S1.webernetz.net",
                             "Software Version": "Cisco IOS Software, C2960 Software (C2960-LANBASEK9-M), Version 15.0(2)SE9, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2015 by Cisco Systems, Inc.\nCompiled Tue 01-Dec-15 07:07 by prod_rel_team",
@@ -440,7 +424,8 @@
                             ],
                             "Spare Pair PoE": 0,
                             "Radio 1 channel Platform": 1
-                        }
+                        },
+                        "Raw": "\u0000\u0000\u0000\u0001\u0006\u0001\u0000\u0002"
                     },
                     "01:80:c2:00:00:02": {
                         "LACP": {
